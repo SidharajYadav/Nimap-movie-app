@@ -1,15 +1,26 @@
+
 import React from "react";
 
 const Pagination = ({ currentPage, totalPages, onPageChange }) => {
+  const pageNumbers = [];
+
+  for (let i = 1; i <= totalPages; i++) {
+    pageNumbers.push(i);
+  }
+
   return (
-    <div className="pagination">
-      {Array.from({ length: totalPages }, (_, index) => (
+    <div className="flex justify-center mt-8">
+      {pageNumbers.map((number) => (
         <button
-          key={index}
-          onClick={() => onPageChange(index + 1)}
-          disabled={currentPage === index + 1}
+          key={number}
+          onClick={() => onPageChange(number)}
+          className={`px-4 py-2 mx-1 rounded-md ${
+            currentPage === number
+              ? "bg-blue-500 text-white"
+              : "bg-gray-700 text-white"
+          }`}
         >
-          {index + 1}
+          {number}
         </button>
       ))}
     </div>

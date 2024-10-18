@@ -1,7 +1,16 @@
-import { createStore, applyMiddleware } from "redux";
-import thunk from "redux-thunk";
+// import { createStore, applyMiddleware } from "redux";
+// import thunk from "redux-thunk";
+// import rootReducer from "./reducers";
+
+// const store = createStore(rootReducer, applyMiddleware(thunk));
+
+// export default store;
+import { configureStore } from "@reduxjs/toolkit";
 import rootReducer from "./reducers";
 
-const store = createStore(rootReducer, applyMiddleware(thunk));
+const store = configureStore({
+  reducer: rootReducer, // your combined reducers
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(), // redux-thunk is included by default
+});
 
 export default store;
