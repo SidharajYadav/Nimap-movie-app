@@ -1,4 +1,4 @@
-.App {
+/* .App {
   @apply bg-gray-900 text-white;
   text-align: center;
 }
@@ -36,7 +36,7 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

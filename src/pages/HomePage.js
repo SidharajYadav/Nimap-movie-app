@@ -1,5 +1,3 @@
-
-
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchPopularMovies } from "../redux/actions";
@@ -14,9 +12,10 @@ const HomePage = () => {
   }, [dispatch]);
 
   return (
-    <div className="container mx-auto py-8">
-      <h1 className="text-white text-3xl mb-4">Popular Movies</h1>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    <div className="container mx-auto py-4 px-2">
+      <h1 className="text-white text-2xl sm:text-3xl mb-4">Popular Movies</h1>
+      {/* Adjust grid to be more flexible for small screens */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4 mb-4">
         {movies.map((movie) => (
           <MovieCard key={movie.id} movie={movie} />
         ))}
@@ -26,3 +25,4 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
