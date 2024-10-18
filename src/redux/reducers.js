@@ -5,6 +5,7 @@ const initialState = {
   topRatedMovies: [],
   upcomingMovies: [],
   movieDetail: {},
+  movieCast: [],
 };
 
 const movieReducer = (state = initialState, action) => {
@@ -17,6 +18,8 @@ const movieReducer = (state = initialState, action) => {
       return { ...state, upcomingMovies: action.payload };
     case "SET_MOVIE_DETAIL":
       return { ...state, movieDetail: action.payload };
+    case "SET_MOVIE_CAST": // New case for setting cast information
+      return { ...state, movieCast: action.payload };
     default:
       return state;
   }

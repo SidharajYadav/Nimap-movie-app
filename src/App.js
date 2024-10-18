@@ -93,7 +93,7 @@ import "./index.css";
 const App = () => {
   return (
     <Provider store={store}>
-       <div className="dark bg-black min-h-screen"> 
+       <div className=""> 
       <Router>
         <Navbar />
         <Routes>

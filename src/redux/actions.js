@@ -32,3 +32,12 @@ export const fetchMovieDetail = (movie_id) => async (dispatch) => {
   const data = await response.json();
   dispatch({ type: "SET_MOVIE_DETAIL", payload: data });
 };
+
+
+export const fetchMovieCast = (movie_id) => async (dispatch) => {
+  const response = await fetch(
+    `https://api.themoviedb.org/3/movie/${movie_id}/credits?api_key=${API_KEY}&language=en-US`
+  );
+  const data = await response.json();
+  dispatch({ type: "SET_MOVIE_CAST", payload: data.cast }); // Dispatching the cast data
+};
