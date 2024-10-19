@@ -4,7 +4,9 @@
 <img width="450px;" src="https://github.com/SidharajYadav/Nimap-movie-app/blob/main/public/single-page.jpg"/>
 
 <img width="450px;" src="https://github.com/SidharajYadav/Nimap-movie-app/blob/main/public/cast-img.jpg"/>
-<img width="450px;" src="https://github.com/SidharajYadav/Nimap-movie-app/blob/main/public/moblieview.jpg"/>)
+<img width="450px;" src="https://github.com/SidharajYadav/Nimap-movie-app/blob/main/public/moblieview.jpg"/>
+
+<img width="450px;" src="https://github.com/SidharajYadav/Nimap-movie-app/blob/main/public/moblie_single-page.jpg"/>
 
 ## Available Scripts
 
