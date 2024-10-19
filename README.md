@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img width="450px;" src="https://github.com/SidharajYadav/Nimap-movie-app/blob/main/public/firstpage.jpg"/>
+<img width="450px;" src="https://github.com/SidharajYadav/Nimap-movie-app/blob/main/public/single-page.jpg"/>
+
+<img width="450px;" src="https://github.com/SidharajYadav/Nimap-movie-app/blob/main/public/cast-img.jpg"/>
+<img width="450px;" src="https://github.com/SidharajYadav/Nimap-movie-app/blob/main/public/moblieview.jpg"/>)
 
 ## Available Scripts
 
