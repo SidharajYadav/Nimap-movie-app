@@ -1,12 +1,3 @@
-# Getting Started with Create React App
-
-<img width="450px;" src="https://github.com/SidharajYadav/Nimap-movie-app/blob/main/public/firstpage.jpg"/>
-<img width="450px;" src="https://github.com/SidharajYadav/Nimap-movie-app/blob/main/public/single-page.jpg"/>
-
-<img width="450px;" src="https://github.com/SidharajYadav/Nimap-movie-app/blob/main/public/cast-img.jpg"/>
-<img width="450px;" src="https://github.com/SidharajYadav/Nimap-movie-app/blob/main/public/moblieview.jpg"/>
-
-<img width="450px;" src="https://github.com/SidharajYadav/Nimap-movie-app/blob/main/public/moblie_single-page.jpg"/>
 Nimap Movie App
 
 Welcome to the Nimap Movie App project! This is a React application for browsing and exploring movies, built with Create React App. The app provides features such as viewing popular movies, searching for specific movies, viewing details about individual movies including their cast, and more.
